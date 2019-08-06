@@ -163,6 +163,7 @@ function update() {
   d3.select(window).on("resize", resize);
 }
 
+
 function tick() {
   link.attr("x1", function(d) { return d.source.x; })
       .attr("y1", function(d) { return d.source.y; })
